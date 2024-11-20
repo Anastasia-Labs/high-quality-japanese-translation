@@ -1,0 +1,11 @@
+{
+  "title": "ニュース",
+  "markAllAsRead": "すべて既読にする",
+  "allRead": "最新の情報です。🎉",
+  "noNews": "現在ニュースはありません。新しいニュースがあればここでお知らせします。その間、<2>コミュニティ<\\/2>をチェックしてください。",
+  "link_inside_popover": "もっと読む",
+  "link_dialog": "詳細を表示",
+  "markAs_read": "既読にする",
+  "markAs_unread": "未読にする",
+  "dismissButton": "了解しました"
+}

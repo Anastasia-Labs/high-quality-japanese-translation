@@ -1,0 +1,66 @@
+{
+  "v3": {
+    "hero": {
+      "topline": "高速かつ安全。",
+      "title": "取引し、稼ぎ、ポートフォリオを成長させましょう。"
+    },
+    "stats": {
+      "orders": "注文が埋められました",
+      "pools": "流動性プール",
+      "tvl": "$t(glossary:tvl)",
+      "volume": "取引量",
+      "revenue": "プロトコルの収益"
+    },
+    "features": {
+      "speed": {
+        "title": "超高速のスピード",
+        "copy": "新しいV3契約は、数ヶ月にわたる慎重な設計と最適化の結果であり、プロトコルは単一のトランザクションで25の注文を処理することができ、遅延とスループットが向上しています。",
+        "highlight": "バッチごとの注文数"
+      },
+      "revenue": {
+        "title": "プロトコル収益の向上",
+        "copy": "安心してください、料金が削減されてもプロトコルの収益は損なわれません！新しいV3契約は多様なソースから実際のプロトコル収益を生成し、この収益は直接Sundae DAOによって管理されます！",
+        "highlight": "収益源"
+      },
+      "fees": {
+        "title": "新しい低コストの取引",
+        "copy": "改良されたパフォーマンスにより手数料も節約できます！V3契約の手数料はv1の半分以下で、SundaeSwapプロトコルはCardanoの最も安価なDEXの一つとなります！",
+        "highlight": "取引手数料"
+      },
+      "advanced": {
+        "title": "高度な機能",
+        "copy": "新しい契約はスピードだけでなく、多くの高度な機能を含んでいます。トークンを発行する新しいプロジェクトやDEXと統合を目指しているプロトコルに最適です。Cardanoをベースにしていますか？連絡してください！",
+        "cta": "お問い合わせ",
+        "highlight": "可能性"
+      }
+    },
+    "socials": {
+      "title": "SundaeSwapコミュニティに参加",
+      "copy": "Sundae Labsのチームとコミュニティと共に、CardanoにDeFiをもたらすためのイノベーションを起こし続けましょう。"
+    },
+    "footer": "Sundae Labs, Inc. All rights reserved.",
+    "bubbles": {
+      "orderOverview": {
+        "txId": "$t(orders:details.txId)",
+        "date": "提出済み",
+        "executedDate": "実行済み",
+        "outcome": "$t(orders:details.outcome)",
+        "pool": "$t(glossary:pool)"
+      }
+    }
+  },
+  "hero": {
+    "title": "取引して、稼いで、ポートフォリオを成長させましょう。",
+    "copy": "Cardanoベースの資産を取引し、流動性を提供して手数料と報酬を得て、進捗を新しい分散型ポートフォリオビューで追跡しましょう。ウォレットを接続して始めましょう！",
+    "links": {
+      "explore": "トークンを探す"
+    }
+  },
+  "seo": {
+    "home": "ホーム",
+    "tasteTest": {
+      "root": "Taste Test",
+      "detail": "{{name}} のTaste Test"
+    }
+  }
+}

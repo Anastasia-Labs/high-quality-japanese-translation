@@ -1,0 +1,93 @@
+{
+  "banner": {
+    "ariaLabel": "ポートフォリオ",
+    "copy": "進捗を一目で確認しましょう。",
+    "title": "ポートフォリオ"
+  },
+  "newsTeaser": {
+    "trade": {
+      "copy": "ネイティブCardanoトークンをトレードする。",
+      "cta": "トレード開始",
+      "title": "アセットをスワップ"
+    },
+    "deposit": {
+      "copy": "流動性を預けて、トレード手数料を稼ぎ始めましょう。",
+      "cta": "流動性を追加",
+      "title": "流動性を追加 💰"
+    }
+  },
+  "greeting": {
+    "isMorning": "おはようございます",
+    "isNoon": "こんにちは",
+    "isAfternoon": "お帰りなさい",
+    "isEvening": "こんばんは",
+    "isNight": "おやすみなさい"
+  },
+  "sidebar": {
+    "overview": "概要",
+    "assets": "アセット",
+    "liquidity": "流動性",
+    "yieldFarming": "利回り",
+    "collapse": "サイドバーを閉じる",
+    "expand": "サイドバーを展開"
+  },
+  "chart": {
+    "last7Days": "過去7日間"
+  },
+  "yourAssetBalance": "あなたの残高",
+  "yourAssetBalance_tooltip": "プール内のトークンペアにおけるあなたの流動性残高。",
+  "actionButtons": "利用可能なアクション",
+  "assetPortfolioBreakdown": "アセットポートフォリオの内訳",
+  "assetPieChartTooltip": "アセット配分",
+  "assetPriceHistory": "アセット価格履歴",
+  "liquidityPieChartTitle": "流動性ポートフォリオの内訳",
+  "positionPieChartTooltip": "ポジション配分",
+  "liquidityBarsChartTitle": "流動性ポジションのパフォーマンス",
+  "yieldFarmingPositionsChartTitle": "利回りファーミングポジションの内訳",
+  "estimate": "これは、ウォレット内のADA、価格データのあるネイティブトークン、および提供された流動性の価値を含むポートフォリオ残高の推定です。ポートフォリオの推定値（USD）は約{{USD}}です。",
+  "tabs": {
+    "assets": "アセット",
+    "liquidity": "提供された流動性",
+    "yieldFarming": "$t(glossary:yieldFarming)"
+  },
+  "portfolioBalanceValues": {
+    "assets": "利用可能なアセット",
+    "assets_tooltip": "ウォレット内のネイティブトークンの総価値。",
+    "liquidity": "提供された流動性",
+    "liquidity_tooltip": "ウォレット内のSundae流動性トークンの総価値、該当する流動性で発生した手数料を差し引いたもの。",
+    "earnings_fees": "収益 (手数料)",
+    "earnings_feesTooltip": "ウォレット内のSundae流動性トークンから収集された総手数料。",
+    "earnings_farming": "収益 (利回りファーミング)",
+    "earnings_farmingTooltip": "利回りファーミングから獲得した総未請求の報酬。"
+  },
+  "tables": {
+    "assets": {
+      "showMore": "{{amount}} 件を表示"
+    },
+    "liquidity": {
+      "positions": {
+        "hide_compact": "隠す",
+        "hide_extended": "ポジションを隠す",
+        "manage_compact": "管理",
+        "manage_extended": "ポジションを管理"
+      }
+    }
+  },
+  "marketStats": {
+    "title": "マーケット統計 (TVLなど)"
+  },
+  "dexData": {
+    "title": "SundaeSwap統計 (TVLなど)"
+  },
+  "trendingAsset": "トレンド資産",
+  "earningsStackedBarChart": {
+    "title": "イールドファーミングの収益",
+    "unspecificEarnings": "未指定の収益",
+    "total_day": "1日当たりの合計",
+    "total_overTime": "累計",
+    "estimate": "の見積もり",
+    "showEstimates": "見積もりを表示",
+    "showEstimates_tooltip": "以下の値は次の報酬支払いの見積もりです。それらは最近のデリゲーションおよびステークの分布のスナップショットのみに基づいており、公式結果が計算されるときに、たとえ劇的にであっても変わる可能性があります。",
+    "scaleTooltip": "<0></0><1><2>線形スケール：</2> 同じ増分を表します。すべての単位の違いが同じに見えるため、絶対的な違いを理解しやすくなります。</1><3><4>対数スケール：</4> 幅広い値の範囲を視覚化するのに便利で、各増分は百分率の成長または乗法因子を表します。</3><5><6>注意：</6> 対数スケールは大規模なデータ範囲に明確さを提供しますが、すべてのデータセットに最適な選択肢ではないかもしれません。小さな差異が実際よりも重要に見える場合があり、誤解を招く可能性があります。</5>"
+  }
+}

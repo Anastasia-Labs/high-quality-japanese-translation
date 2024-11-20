@@ -1,0 +1,171 @@
+{
+  "assetSelectDialog": {
+    "copy": "名前またはポリシーIDでトークンを検索します。",
+    "searchPlaceholder": "名前またはティッカーでトークンを検索…",
+    "title": "トークンを選択",
+    "title_exchangeMode": "<>{{exchangeMode}}</>したいトークンを選択してください"
+  },
+  "assetInput": {
+    "topline": {
+      "given": "支払います",
+      "taken": "受け取ります",
+      "zap": "提供します"
+    }
+  },
+  "assetResources": {
+    "title": "トークン概要"
+  },
+  "autoRouter": "Auto Router",
+  "autoRouter_extended": "Auto Routerは、プロトコル上のすべての流動性プールを比較して、取引するトークンに最適な結果となることをようにします。",
+  "banner": {
+    "ariaLabel": "交換",
+    "copy": "Cardanoネイティブトークンを購入、販売、またはスワップします。",
+    "title": "交換"
+  },
+  "orderTypeSelect": {
+    "title": "注文タイプ"
+  },
+  "liquidityPoolSelect": {
+    "title": "流動性プール",
+    "title_popover": "流動性プールを選択",
+    "title_short": "$t(glossary:pool)",
+    "tooltip": "スワップの結果は、流動性プールの深さ、スリッページ、手数料によって変わる可能性があります。デフォルトは最も深い流動性プールです。",
+    "option": "<feeComponent>{{fee}}</feeComponent> LP手数料; プールID: <identComponent>{{ident}}</identComponent>"
+  },
+  "initialAssetSelect": {
+    "swap": {
+      "title": "スワップしたい資産を選択してください",
+      "description": "スワップしたいトークンを選択または検索してください（名前またはポリシーID）。",
+      "description_disconnected": "スワップしたいトークンを選択してください。"
+    },
+    "buy": {
+      "title": "購入したい資産を選択してください",
+      "description": "購入したいトークンを選択または検索してください（名前またはポリシーID）。",
+      "description_disconnected": "購入したいトークンを選択してください。"
+    },
+    "sell": {
+      "title": "販売したい資産を選択してください",
+      "description": "販売したいトークンを選択または検索してください（名前またはポリシーID）。",
+      "description_disconnected": "販売したいトークンを選択してください。"
+    }
+  },
+  "chart": {
+    "stats": {
+      "title": "プール統計",
+      "marketCap": "時価総額",
+      "volume": "24時間ボリューム",
+      "fees": "24時間手数料",
+      "fees_help": "このプールによって現在収集され、まだ支払われていない総プロトコル料金。",
+      "supply": "総トークン供給量",
+      "24hilo": "24H高値 / 24H安値",
+      "holders": "保有者",
+      "tvl": "TVL",
+      "tvl_24h": "TVL 24h",
+      "price_24h": "価格 24h"
+    },
+    "time": {
+      "interval": "時間間隔",
+      "interval_tooltip": "表示されるデータの時間の範囲を選択または変更します。"
+    }
+  },
+  "crossPromos": {
+    "farming": {
+      "title": "イールドファーム 🚜",
+      "copy": "流動性を提供した後にLPトークンをステーキングして、ポジションに対して追加の利回りを得ます。",
+      "cta": "ファームを見る"
+    },
+    "liquidity": {
+      "title": "流動性追加 💧",
+      "copy": "流動性をプールに預け、すべての取引で取引手数料を獲得します。",
+      "cta": "詳細はこちら"
+    }
+  },
+  "currentBalance": "現在の残高",
+  "exchangeMode": {
+    "buy": "購入",
+    "buy_counter": "支払い方法",
+    "sell": "売却",
+    "sell_counter": "受け取る",
+    "swap": "スワップ"
+  },
+  "exchangeOrderType": {
+    "market": "マーケット $t(glossary:order, { 'count': 1 })",
+    "limit": "リミット $t(glossary:order, { 'count': 1 })"
+  },
+  "limitPrice": "リミット価格",
+  "perAsset": "毎",
+  "limitPrice_missing": "有効なリミット価格を入力してください",
+  "limitPrice_tooltip_buy": "リミット価格は、流動性提供者の手数料を含むトークンの最大価格（ADA）です。",
+  "limitPrice_tooltip_sell": "リミット価格は、あなたが売る流動性提供者の手数料を含むトークンの最低価格(ADA)です。",
+  "limitPrice_tooltip_swap": "リミット価格は、流動性提供者の手数料を含むトークンの売却最低価格（ADA）です。",
+  "previewOrder": "<2>{{asset}}を取引する<\\/2>",
+  "previewOrder_buy": "<2>{{asset}}を購入する<\\/2>",
+  "previewOrder_sell": "<2>{{asset}}を売却する<\\/2>",
+  "previewOrder_swap": "<2>{{asset}}をスワップする<\\/2>",
+  "dialogTitle_buy": "購入するアセットを選択してください",
+  "dialogTitle_sell": "売却する資産を選択してください",
+  "dialogTitle_swap": "スワップするアセットを選択してください",
+  "outputEstimate": "出力は推定値です",
+  "sellAll": "すべて売却する",
+  "spendBalance": "残高をすべて使います。",
+  "buyMax": "最大の{{assetA}}を購入します。",
+  "buyMax_done": "あなたは{{assetB}}の残高に基づき、最大の{{assetA}}を購入しようとしています。",
+  "price": "$t(common:price)",
+  "price_limit": "リミット$t(common:price)",
+  "price_market": "マーケット$t(common:price)",
+  "price_effective": "効果的$t(common:price)",
+  "swap": {
+    "flipAssets": "資産をフリップする",
+    "flipAssets_noAssets": "アセットをフリップするには、最初に別のアセットを選択してください。",
+    "flipAssets_noQuantity": "取引する{{asset}}を持っていないため、方向を変更することはできません。受け取りたい別の資産を選択するか、取引のために{{asset}}を購入してください。"
+  },
+  "settings": {
+    "dialogDescription": "トランザクション設定を構成する",
+    "headline": "設定",
+    "fees": "拡張トランザクション手数料ビュー",
+    "fees_tooltip": "この設定では、トランザクション手数料のコンパクトビューと拡張ビューを選択できます。デフォルトでは、各トランザクションで支払う必要のあるトランザクション手数料を一覧表示します。このオプションをオフにすると、トランザクション手数料の総額のみを表示します。",
+    "slippage": "$t(glossary:slippageTolerance)",
+    "slippage_tooltip": "スリッページとは、取引の予想価格と実際に取引が実行される価格の差を指します。",
+    "slippage_short": "スリッページ",
+    "slippage_lessThanRecommended": "取引は実行されないかもしれません。",
+    "slippage_tooHigh": "取引は著しく悪い価格で実行されるかもしれません。",
+    "slippage_invalid": "有効なスリッページ許容値を入力してください",
+    "tooltip": "トランザクション設定を編集する"
+  },
+  "txOverview": {
+    "cancel": "注文に戻る",
+    "collapsible": {
+      "close": "トランザクションの詳細を閉じる",
+      "open": "トランザクションの詳細を開く"
+    },
+    "expectedOutput": "予想出力",
+    "expectedOutput_diff": "市場との差",
+    "expectedOutput_limitTooltip": "現在のリミット価格で受け取ることを予想する量。",
+    "expectedOutput_market": "市場注文での出力",
+    "expectedOutput_marketTooltip": "現在の市場価格で予想される受取額。",
+    "expectedOutput_preview": "最低でも<1>{{amount}}<\\/1>は受け取り、それ以下の場合は取引が元に戻されます。",
+    "expectedOutput_tooltip": "現在のマーケット価格で受け取る予定金額です。取引の処理中にマーケット価格が変動した場合、受け取る額が減少または増加する可能性があります。",
+    "expectedInput_swap": "使った金額",
+    "expectedInput_buy": "使った金額",
+    "expectedInput_sell": "使った金額",
+    "expectedInput_tooltip": "この取引に費やした金額（手数料を含まない）。手数料の詳細は取引の詳細を開いて確認してください。",
+    "expectedInput_diff": "市場との差異",
+    "expectedInput_market": "マーケットオーダーで使った金額",
+    "expectedInput_marketTooltip": "現在の市場価格で予想された支出額。",
+    "buildingTx": "取引を構築中...",
+    "calculatingTxFees": "取引手数料を計算中...",
+    "fetchingBestPrice": "最良の取引結果を取得中...",
+    "refetchingBestPrice": "最良の取引結果を再取得中...",
+    "minReceived": "最小受取額",
+    "minReceived_slippage": "スリッページ後の最小受取額",
+    "minReceived_tooltip": "保証される最小金額です。価格がさらに変動した場合、トランザクションは元に戻ります。",
+    "priceImpact": "価格影響",
+    "priceImpact_tooltip": "このプールの市場価格に対する取引の影響。",
+    "submit": "{{exchangeMode}}オーダーを送信 🔥",
+    "submit_short": "オーダーを送信 🔥",
+    "update": "{{exchangeMode}}オーダーを更新 🔥",
+    "update_short": "オーダーを更新 🔥"
+  },
+  "priceImpactWarning": "ボラティリティ警告！低流動性のプールに対して大量の資産を取引すると、資金が大幅に失われる可能性があります。続行してもよろしいですか？",
+  "searchInputPlaceholder": "トークン名で検索..."
+}

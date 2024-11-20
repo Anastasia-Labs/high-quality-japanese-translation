@@ -1,0 +1,106 @@
+{
+  "operation": {
+    "OpDepositMixed": "デポジットミックス",
+    "OpDepositSingle": "デポジットシングル",
+    "OpSwap": "スワップ",
+    "OpWithdraw": "引出"
+  },
+  "history": {
+    "table": {
+      "title": "あなたの注文",
+      "title_user": "最近のトランザクション",
+      "noOrders": "利用可能なアクションはありません。"
+    }
+  },
+  "banner": {
+    "ariaLabel": "注文",
+    "copy": "ここで全てのアクティビティと注文履歴を確認できます。",
+    "title": "注文"
+  },
+  "orderType": "タイプ",
+  "hideCanceled": "キャンセル済みを非表示",
+  "showCanceled": "キャンセル済みを表示",
+  "allOrders": "全ての注文",
+  "orderStatus": "注文のステータス",
+  "ordersHistoryTitle": "オンチェーン注文履歴",
+  "openOrdersTitle": "オンチェーン未処理注文",
+  "submittedOrdersTitle": "ローカルで提出された注文",
+  "farmingOrdersTitle": "オンチェーンファーミング注文",
+  "openOrdersForPool": "{{exchangeMode}}オープン注文",
+  "details": {
+    "date": "注文日",
+    "txId": "トランザクションID",
+    "txId_copy": "トランザクションIDをコピー",
+    "outcome": "結果",
+    "spentReasonDate": "{{spentReason}} at",
+    "processed": "処理済み"
+  },
+  "harvestReadyAt": "収穫可能日",
+  "orderPlaced": "注文が配置されました！🎉",
+  "orderPlaced_deposit": "デポジットの注文が配置されました！🎉",
+  "cancelled": "キャンセル済み",
+  "cancelled_tooltip": "注文がキャンセルされたため、出力はありません。",
+  "cancelled_type": "キャンセルされた{{type}}",
+  "cancelled_order": "キャンセルされた注文",
+  "cancelOrder": "注文をキャンセル",
+  "acceptablePrice": "許容価格",
+  "anyMarketPrice": "任意の市場価格",
+  "scoopStatus": "スクープステータス",
+  "limitOrder": "制限注文",
+  "limitOrder_tooltip": "制限注文とは...",
+  "awaitingScoop": "スクープを待機中",
+  "awaitingScoop_tooltip": "注文がスクープを待機している場合、注文はオンチェーン上に記録され、Scooper（小規模な手数料でDEXの注文を処理する独立したノードオペレーター）による処理を待っています。あなたの注文の前に注文があるかもしれません。Scooperは先着順で注文を処理しようとします。キューはプールごとに機能します。高い需要を持つプールは長い遅延を経験するかもしれません。いつでも注文をキャンセルできます。",
+  "priceUnderLimit": "価格が制限以下",
+  "priceUnderLimit_tooltip": "現在の価格が許容価格を下回っている場合、価格が許容価格内に上昇するか、注文をキャンセルするまで注文はオンチェーンにとどまります。注文がオンチェーンにある限り、あなたのキュー内の位置は保持されます。",
+  "priceOverLimit": "価格が制限を超え",
+  "priceOverLimit_tooltip": "現在の価格が許容価格を上回っている場合、価格が許容価格内に下がるか、注文をキャンセルするまで注文はオンチェーンにとどまります。注文がオンチェーンにある限り、あなたのキュー内の位置は保持されます。",
+  "currentPrice": "現在の価格",
+  "currentPrice_tooltip": "各プール内のペアに対する価格は、各スクープ後に変更されます",
+  "orderExecuted": "この注文は既に実行されたようですので、更新できません。",
+  "orderCancelled": "この注文はキャンセルされたようですので、更新できません。",
+  "orderMinimum": "注文の最小値",
+  "marketEstimate": "市場推定",
+  "marketEstimate_tooltip": "これは、このサイズの注文が現在のプール準備金に対して実行された場合の推定出力です。",
+  "minimum_limit": "これは、あなたの指値価格に基づいて受け取ることができる最低金額です。",
+  "minimum_market": "これは、あなたの注文のスリッページ許容度に基づいて受け取ることができる最低金額です。",
+  "viewAll": "すべての注文を表示",
+  "select": {
+    "label": "注文をフィルタ"
+  },
+  "unlockedLiquidity": "アンロックリクイディティ",
+  "lockedLiquidity": "ロックリクイディティ",
+  "lockedLiquidityAt": "のロックリクイディティ",
+  "status": {
+    "submitted": "提出済み",
+    "submitted_tooltip": "取引はウォレットに送信されましたが、まだブロックにミントされていませんし、チェーン上で確認されていません。",
+    "pending": "保留中",
+    "pending_tooltip": "取引はチェーン上で確認されていますが、価格制限のため、またはスコープに含まれていないため、まだ実行されていません。",
+    "executed": "実行済み",
+    "executed_tooltip": "取引は実行され、結果として得られた資金は適切な宛先に返されました。",
+    "cancelled": "キャンセル済み",
+    "cancelled_tooltip": "取引はユーザーによってキャンセルされ、資金が返還されました。",
+    "invalid": "無効",
+    "invalid_tooltip": "取引は無効であり、決して実行されません。キャンセル可能かどうかは不明です。",
+    "inRange": "注文がキューにあります（スコープ待ち）。",
+    "inRange_tooltip": "あなたの注文は分散型Scooperネットワークによる処理を待っています。あなたの前にいくつかの注文があり、その順番で処理されます。",
+    "outRange": "市場の見積もりは注文の最低金額を下回っています。",
+    "outRange_tooltip": "出力が設定した最低金額を下回るため、注文が実行されていません。価格が変動するのを待ちたくない場合は、注文をキャンセルまたは更新することができます。"
+  },
+  "taxReport": {
+    "button": "取引レポートをエクスポート",
+    "popover": {
+      "exportForYear": "{{fiscalYear}}の取引報告書"
+    },
+    "modal": {
+      "description": "{{fiscalYear}}年のスワップ、預金、および引き出し取引のレポートを簡単に生成できます。このレポートには、{{fiscalYearPlusOne}}年の初日から{{fiscalYear}}年の最終日までの取引が含まれており、タイムゾーンの違いを考慮しています。",
+      "subtitleCryptoTaxCalculator": "CryptoTaxCalculatorにインポート",
+      "descriptionCryptoTaxCalculator": "このレポートはCryptoTaxCalculatorと互換性があります。取引データのインポートを開始するには<2>ここをクリックしてください</2>。",
+      "subtitleDiscount": "SundaeSwapユーザー限定の<2>割引</2>",
+      "descriptionDiscount": "CryptoTaxCalculatorにサインアップする際に、以下の20％割引クーポンコードを使用してください。4月末まで有効です：",
+      "copyCoupon": "クーポン割引をクリップボードにコピー",
+      "subtitleTaxReportAssistance": "支援が必要ですか？",
+      "taxReportAssistance": "CSV形式の解釈に関して支援が必要な場合やCPAが支援を必要とする場合は、追加サポートのために<2>このガイド</2>を参照してください。"
+    }
+  },
+  "chainedOrder": "連鎖注文"
+}

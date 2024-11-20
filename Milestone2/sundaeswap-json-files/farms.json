@@ -1,0 +1,237 @@
+{
+  "apr": "農業APR",
+  "hra": "ファーミングHRA",
+  "historicalReturnsAnnualized": "年間化された過去のリターン",
+  "historicalReturnsAnnualized_abbreviated": "HRA",
+  "hraLegalText": "年率換算の過去のリターン (HRA) は、すべてのプログラムにおける過去のパフォーマンスの概算計算です。過去のパフォーマンスは将来の結果の予測ではありません。HRAは教育および情報提供の目的でのみ提供されており、投資、税金、法律、金融、その他のアドバイスではありません。分散型金融の利用には、デジタルアセットの移転中やアセットの価格変更による財務的なリスクが含まれます。",
+  "communityDelegation": "コミュニティの委任",
+  "communityDelegation_abbreviated": "委任",
+  "fixedEmissions": "固定エミッション",
+  "farmingAvailable": "農業適格",
+  "upcomingFarm": "今後の農場",
+  "upcomingFarm_tooltip": "このプールの農業は{{date}}に開始されます。",
+  "banner": {
+    "ariaLabel": "フリーザーファームズ",
+    "copy": "取引手数料に加えて、イールドファームで追加の利回りを得る。",
+    "endAdornment": "フリーザーファームの提案",
+    "title": "フリーザーファームズ"
+  },
+  "farms": "農場",
+  "farms_eligible": "農業に適格",
+  "farms_belowThreshold": "最低委任額未満",
+  "farms_receiving": "報酬を受け取っています",
+  "farms_all": "すべての農場",
+  "farms_core": "コア農場",
+  "farms_community": "コミュニティ農場",
+  "farms_user": "あなたのアクティブな農場",
+  "farms_empty": "アクティブな農場はありません",
+  "labels": {
+    "core": "コア農場",
+    "community": "コミュニティ農場",
+    "emittedAsset": "排出されたアセット",
+    "program_starts": "プログラム開始",
+    "program_started": "プログラム開始済み",
+    "program_ends": "プログラム終了",
+    "program_ended": "プログラム終了済み",
+    "delegation_share": "委任シェア",
+    "delegation_totalShare": "総委任シェア",
+    "v2": "V2",
+    "v1": "V1",
+    "version": "スマートコントラクトバージョン",
+    "locked_ada": "推定ロック価値",
+    "locked_tooltip": "このプールからロックされたLPトークンの推定ADA値。",
+    "farm_program": "農場プログラム",
+    "pool_status": "プールのステータス",
+    "pool_status_active": "報酬を受け取っています",
+    "pool_status_inactive": "報酬を受け取っていません"
+  },
+  "delegation": {
+    "info_total": "これは、すべての{{stakedAsset}}トークンホルダーからこのプールが受け取った総委任です。",
+    "info_below": "このプログラムは委任によって上位80％のプールに報酬を分配します。現在、このプールはその閾値の外にあり報酬を受け取っていませんが、より多くの{{stakedAsset}}トークンホルダーが委任すれば適格になります。",
+    "info_above": "このプールはアクティブに報酬を受け取っています！委任によって上位80％のプールに属しており、報酬の資格があります。これは{{stakedAsset}}トークンホルダーが委任を更新すると変更される可能性があります。",
+    "info_sundae": "このプールは固定された毎日の排出を受けているため、このプールへの委任はカウントされません。"
+  },
+  "lp": {
+    "staked": "ロックされたポジション",
+    "staked_user": "あなたのロックされたポジション",
+    "staked_my": "私のロックされたポジション",
+    "staked_total": "総ロックポジション"
+  },
+  "rewards": "報酬",
+  "rewards_earned": "獲得した報酬",
+  "rewards_earnedTooltip": "流動性ポジションによって獲得された追加報酬。",
+  "search": {},
+  "select": {
+    "label": "農場をフィルタリング"
+  },
+  "pageTitle": "フリーザーファームを探索",
+  "unlockLiquidity": {
+    "dialog": {
+      "title": "{{assetA}}-{{assetB}}のLPトークンをアンロック",
+      "notice": {
+        "disclaimer": "30日間の期限が終了する前にポジションをアンロックする場合、{{asset}}の報酬を受け取る資格がありません。30日間の期限は、ステーキングトランザクションがブロックチェーンに投稿された日の23:59:59 UTCに開始されます。あなたの30日間の期限は{{startDate}}に開始され、{{endDate}}の23:59:59 UTCに終了します。",
+        "banner": {
+          "title": "ポジションをアンロック",
+          "copy": "アンロックしようとしています"
+        }
+      },
+      "confirmation": {
+        "button": "今すぐポジションをアンロック",
+        "cancel": "戻る",
+        "notice": "<2>{{endDate}}<\\/2>の23:59:59 UTCより前にポジションをアンロックする場合、報酬を受け取る資格はありません。",
+        "warning": "{{amount}}をアンロックしてよろしいですか"
+      },
+      "txDetails": {
+        "unlocking": "ポジションをアンロック中",
+        "eligibleBy": "報酬の有効日",
+        "eligibleBy_tooltip": "ツールチップ",
+        "term": "イールドファーミング期間",
+        "term_tooltip": "期間ツールチップ…",
+        "term_value": "30日間"
+      },
+      "button": "ポジションをアンロック"
+    }
+  },
+  "LP_lock": "ポジションをロック",
+  "LP_unlock": "ポジションをアンロック",
+  "undelegated": "委任解除済み",
+  "nextRewardsCycle": "次の報酬サイクル",
+  "portfolio": {
+    "pendingTransactions": {
+      "title": "トランザクション保留中 🚧",
+      "copy_position": "現在、保留中のトランザクションがあります。完了するとポジションが自動的に更新されます。",
+      "copy_delegation": "現在、保留中のトランザクションがあります。完了すると委任が自動的に更新されます。"
+    },
+    "positions": {
+      "action": "ポジションを更新",
+      "action_submit": "更新されたポジションを送信 🔥",
+      "create": "ポジションを作成",
+      "isLoading": "あなたのイールドファーミングポジションをロード中…",
+      "unlock": "全てのポジションをアンロック",
+      "unlock_describe": "ポジションをアンロックすると、すべてのロックされたアセットが返還され、ステークに関連付けられたすべての委任が解除されます。",
+      "title": "ポジション",
+      "description": "あなたのロックされたトークン。",
+      "description_add": "このアセットがすでにロックされている場合、このアイコンをクリックすると、ポジションからアセットをアンロックしてウォレットに戻します。",
+      "description_dialog": "あなたのトークンが現在どのようにロックされているか。",
+      "description_dialogPreview": "あなたのトークンがどのようにロックされるか。",
+      "tableHeader": {
+        "token": "$t(glossary:token)",
+        "amount": "金額"
+      },
+      "dialog": {
+        "withdrawAll": "全て引き出す",
+        "assetSelect": "ロックしたい資産を選択"
+      },
+      "tx": {
+        "building": "あなたのイールドファーミングポジションのトランザクションを構築中 🚧",
+        "submitting": "あなたのイールドファーミングポジションを更新中 🤩",
+        "processing": "あなたのイールドファーミングポジション注文を処理中 🔄"
+      }
+    },
+    "delegations": {
+      "action": "委任を更新",
+      "create": "委任を作成",
+      "action_submit": "更新された委任を送信 🔥",
+      "isLoading": "あなたのイールドファーミング委任をロード中…",
+      "title": "委任",
+      "description": "あなたのトークンがどのように委任されているか。",
+      "description_dialog": "現在、あなたのトークンがどのように委任されているか。",
+      "description_dialogPreview": "あなたのトークンがどのように委任される予定か。",
+      "V1PoolsWarning": "あなたはSundaeSwap v1プールに投票権を委任していますが、DAOはSundaeSwap v3プールのみがイールドファーミングの対象となることを決定しました。",
+      "tableHeader": {
+        "program": "プログラム",
+        "amount": "金額"
+      },
+      "dialog": {
+        "poolSelect": "{{program}}プログラムの対象プールを選択",
+        "add": "新しい委任を追加",
+        "remove": "委任を削除"
+      },
+      "tx": {
+        "building": "イールドファーミング委任トランザクションを構築中 🚧",
+        "submitting": "イールドファーミング委任を更新中 🤩",
+        "processing": "イールドファーミング委任注文を処理中 🔄"
+      }
+    },
+    "earnings": {
+      "dialogTitle": "報酬を申請",
+      "action": "すべての報酬を申請",
+      "isLoading": "イールドファーミング収益を読み込み中…",
+      "title": "収益",
+      "description": "あなたが獲得した報酬です。",
+      "claimButton": "申請",
+      "tableHeader": {
+        "serviceFee": "サービス料",
+        "program": "プログラム",
+        "rewardsAvailable": "利用可能な報酬",
+        "expiration": "有効期限",
+        "expiration_tooltip": "これは報酬が終了し始める最初の日付であり、すべての報酬が失効する日ではありません。",
+        "nextPayoutEst": "次の支払い (予測)",
+        "nextPayoutEst_tooltip": "以下の値は次の報酬支払いの予測です。これらは主に最近の委任とステーク分布のスナップショットに基づいており、公式に結果が計算されるときには大きく変わる可能性があります。",
+        "availableNow": "現在利用可能"
+      },
+      "errors": {
+        "cooldown": "最近報酬の申請を試みましたが、許可された時間枠内に署名できませんでした。30分後に再試行してください。",
+        "declined": "署名なしで取引をキャンセルしました。",
+        "generic": "報酬を申請しようとした際にエラーが発生しました。Discordでサポートまでお問い合わせいただき、以下のレポートIDを含めてください。",
+        "throttle": "多くの人が報酬を申請しています！少しお待ちください。バックグラウンドで再試行を続けます！"
+      },
+      "cooldown": "クールダウン",
+      "cooldown_tooltip": "取引が期限切れになりました。{{time}}分後に再試行してください。",
+      "pending": "保留中",
+      "pending_tooltip": "取引を提出するまでに残り{{time}}です。",
+      "unverified": "未確認",
+      "unverified_tooltip": "報酬は計算されましたが、まだ確認されていません。すぐに再確認してください。",
+      "noRewards": "このプログラムにはLPトークンがロックされていないため、報酬はありません。"
+    }
+  },
+  "landingPage": {
+    "hero": {
+      "title": "コミュニティ主導",
+      "copy": "Cardanoの最も分散化され、ユーザーフレンドリーなイールドファーミングプログラムへようこそ！SundaeSwapに面倒な作業を任せましょう。始めるのは簡単で、進めながら学ぶことができます。",
+      "primaryAction": "トップファームを見る",
+      "secondaryAction": "詳細を学ぶ"
+    },
+    "generalStatsTitle": "全体の統計",
+    "tableTitle": "投票の委任によるトップファーム",
+    "averageTxVolume": "平均取引量",
+    "averageDailyRewards": "平均デイリー報酬",
+    "averageTxVolume_unit": "取引/日",
+    "dailyUsage": "毎日の使用状況（ユニークなウォレット数）",
+    "tvlTooltip": "注意：表示されているTVL（総ロック価値）は30日間の平均値であり、現在のリアルタイム値ではありません。",
+    "positionsTitle": "あなたのポジション",
+    "connectWalletToSeePositions": "ポジションを見るにはウォレットを接続してください。",
+    "footer": {
+      "educationAndHelp": "教育とヘルプ",
+      "teaser": {
+        "pools": {
+          "copy": "ここでは、流動性プールとは何か、流動性の提供と引き出し方法、およびSundaeで取引手数料や報酬を通じて収益を得る方法を学ぶことができます。",
+          "cta": "詳細はこちら",
+          "title": "流動性プールとイールドファーム"
+        },
+        "impermanentLoss": {
+          "copy": "流動性の提供と取引手数料の蓄積には常にリスクが伴います。流動性を提供することにより、非永久損失に晒される可能性があります。",
+          "cta": "詳細はこちら",
+          "title": "リスクの理解"
+        }
+      }
+    },
+    "manageYourPositions": "ポジションの管理",
+    "latestActivity": "最新のアクティビティ",
+    "latestActivity_cta": "すべてのアクティビティアップデートを見る",
+    "rewardsLeaderBoard": {
+      "title": "デイリー報酬ランキング",
+      "tableHeader": {
+        "program": "プログラム",
+        "last30d": "過去30日間",
+        "last24h": "過去24時間"
+      }
+    },
+    "topFarms": {
+      "title": "コミュニティ活動によるトップファーム",
+      "delegationMover": "最大のデリゲーションムーバー",
+      "hraGainers": "最も増加したHRA",
+      "recentlyAdded": "最近追加されたもの"
+    }
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "paths": {
+    "root": {
+      "connected": "$t(glossary:portfolio)",
+      "disconnected": "ホーム"
+    },
+    "exchange": {
+      "root": "交換",
+      "children": {
+        "buy_title": "$t(exchange:exchangeMode.buy) 💸",
+        "buy_description": "お気に入りのカルダノネイティブトークンを購入できます - いま、指値注文としても対応しました。📈",
+        "sell_title": "$t(exchange:exchangeMode.sell) 💰",
+        "sell_description": "あなたのウォレットのアセットを売却できます - 現在指値注文にも対応📈",
+        "swap_title": "$t(exchange:exchangeMode.swap) 🔄",
+        "swap_description": "お気に入りのカルダノネイティブトークンをスワップできます。"
+      }
+    },
+    "farms": "$t(glossary:farm, { 'count': 2 })",
+    "liquidity": {
+      "root": "$t(glossary:liquidity)"
+    },
+    "tasteTest": "テーストテスト",
+    "orders": "$t(glossary:order, { 'count': 2 })",
+    "queue": "$t(glossary:queue)",
+    "wallet": "$t(glossary:wallet)",
+    "yieldFarming": "イールドファーミング"
+  },
+  "header": {
+    "menu": {
+      "openOffCanvasLabel": "メニュー",
+      "closeOffCanvasLabel": "$t(common:close)"
+    },
+    "highlightLabel": {
+      "new": "New",
+      "overview": "概要"
+    },
+    "buttons": {
+      "faq": "私たちの$t(glossary:faq)にアクセスしてください",
+      "orders": "最近の注文を表示します",
+      "quickMenu": {
+        "about": "概要",
+        "faq": "FAQ",
+        "governance": "ガバナンス",
+        "discord": "$t(glossary:discord)",
+        "twitter": "$t(glossary:twitter)",
+        "medium": "$t(glossary:medium)",
+        "legal": "法務とプライバシー"
+      }
+    }
+  },
+  "appVersion": {
+    "tooltip_refresh": "アプリの更新版が利用可能です。このボタンをクリックして更新できます。",
+    "tooltip_manualRefresh": "最新の変更を表示するには、キャッシュをクリアして更新する必要があるかもしれません。方法はブラウザによって異なります。"
+  }
+}

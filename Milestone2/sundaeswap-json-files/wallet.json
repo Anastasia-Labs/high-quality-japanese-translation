@@ -1,0 +1,85 @@
+{
+  "address": "あなたのウォレットアドレス",
+  "handle": "あなたのアクティブなADAハンドル",
+  "button": {
+    "connect": "$t(glossary:wallet)に接続",
+    "connect_short": "$t(glossary:wallet)接続",
+    "connect_abbr": "接続",
+    "disconnect": "ウォレット切断"
+  },
+  "balance": {
+    "ada_availableTitle": "なぜ全てのADAを使用しないのですか？ 🤔",
+    "ada_available": "あなたのウォレットには<2><0>{{ada}}<\\/0><\\/2>がありますが、全てを使うことはできません。これは必要な手数料と預金のためです。詳しくは<6>こちら<\\/6>をご覧ください",
+    "ada_lessThanMinimum": "現在、お財布には十分なADAがありません。SundaeSwapで取引を行うためには、{{minAmount}} ADA以上をウォレットに追加してください。詳しくは<5>こちら<\\/5>をご覧ください",
+    "ada_noAda": "現在、お財布にはADAがありません。SundaeSwapで取引を行うためには、{{minAmount}} ADA以上をウォレットに追加してください。詳しくは<4>こちら<\\/4>をご覧ください"
+  },
+  "connectDialog": {
+    "errorTitle": "エラーが発生しました",
+    "wrongNetwork": "おっと！そのウォレットは間違ったネットワークにあります。{{network}}に接続してもう一度お試しください。",
+    "wrongNetworkTitle": "間違ったネットワーク",
+    "newToCardano": "Cardano初心者ですか？",
+    "learnMore": "ウォレットについて学ぶ",
+    "description": "接続したいウォレットを以下から選択してください。",
+    "selectWalletNotice": "まず接続したいウォレットを選択してください。",
+    "selectWalletNoticeTitle": "ウォレットが選択されていません",
+    "title": "ウォレット接続",
+    "choose": "ウォレットを選択",
+    "noAccount": "ウォレットアカウントが有効になっていません！",
+    "noAccountTitle": "アカウントが設定されていません",
+    "noWallets": "ウォレットがインストールされていないようです。このページと対話するために、少なくとも1つのウォレットをダウンロードして作成するようにしてください。",
+    "legalDisclaimer": "ウォレットを接続することで、<1>免責事項<\\/1>、<3>利用規約<\\/3>および<5>プライバシーポリシー<\\/5>に同意したことになります。",
+    "suggestWallet": "ウォレットが見つかりませんか？",
+    "cip45": {
+      "button": "P2Pウォレット接続（ベータ版）",
+      "dialogCancel": "キャンセル",
+      "dialogCopiedId": "ピアIDがコピーされました！",
+      "dialogCopyId": "ピアIDをコピー",
+      "dialogDescription": "CIP-45対応のウォレットに接続するには、以下のQRコードをスキャンするか、ピアIDをコピーして貼り付けます。ビデオデモはこちら<2>here<\\/2>をご覧ください。CIP-45についてもっと知るには<6>here<\\/6>をクリックしてください。",
+      "dialogTitle": "ピアウォレット接続",
+      "experimental": "実験的機能（ベータ版）",
+      "experimental_tooltip": "この機能はまだ実験的であり、予期しない方法で誤動作する可能性があります。適切な注意を払い、問題が発生した場合は私たちのディスコードで報告してください。"
+    }
+  },
+  "status": {
+    "connected": "{{wallet}}に接続されました"
+  },
+  "network": {
+    "testnet": "テストネット",
+    "mainnet": "メインネット"
+  },
+  "detailsMeta": {
+    "copyWalletAddress": "ウォレットアドレスをクリップボードにコピー",
+    "copyWalletHandle": "ADAハンドルをクリップボードにコピー",
+    "copyWalletAddress_success": "正常にコピーされました！",
+    "copyWalletHandle_success": "正常にコピーされました！",
+    "disableAnimations": "アニメーションを無効にする",
+    "disableAnimations_tooltip": "このトグルは、ページトランジションやコンフェッティなどのプラットフォーム上のアニメーションを無効にします。",
+    "errorReporting": "エラーレポート",
+    "errorReporting_tooltip": "エラー報告に参加することにより、SundaeSwap Labs, Inc.にエラーに関する情報を自動的に共有することに同意します。エラーレポートには、ウォレットアドレス、ブラウザー、オペレーティングシステム、およびエラーに関連するその他の詳細など、デバッグに役立つ情報が含まれます。提出された情報は、プライバシーポリシーに従って問題を解決し、関連するシステムを改善するために使用されます。",
+    "hotjar": "Hotjarトラッキング",
+    "hotjar_tooltip": "Hotjarトラッキングに参加することにより、セッションに関する情報をSundaeSwap Labs, Inc.およびその第三者サービス提供者「Hotjar」と共有することに同意します。 これには、国、フィードバック、およびウェブサイト活動などの関連情報が含まれます。 提出された情報は、問題の特定および関連システムの改善に使用され、プライバシーポリシーに従って処理されます。",
+    "explorer": "エクスプローラー",
+    "language": "言語",
+    "privacyMode": "プライバシーモード",
+    "profileSettings": "プロフィール設定"
+  },
+  "goToSettings": "設定に行く",
+  "settings": "設定",
+  "settings_app": "プリファレンス",
+  "settings_profile": "パーソナライゼーション",
+  "settings_wallet": "アクティブウォレット",
+  "change_pfp": "PFPを変更",
+  "change_handle": "ハンドルを変更",
+  "set_pfp": "PFPを設定",
+  "set_handle": "ハンドルを設定",
+  "remove_handle": "ハンドルをクリア",
+  "preferHandle": "ハンドルを優先しますか?",
+  "dialogs": {
+    "handle_title": "優先するハンドルを選択",
+    "handle_desc": "ウェブサイト全体で使用する優先するADAハンドルを選択してください。",
+    "wrong_net_title": "間違ったネットワーク",
+    "wrong_net_desc": "接続されたウォレットが現在の環境と異なるネットワークにあります: {{network}}。更新してもう一度試してください。",
+    "wrong_net_action": "ウォレット接続を解除",
+    "wrong_net_dismiss": "無視する"
+  }
+}

@@ -1,0 +1,285 @@
+{
+  "liquidity": "$t(glossary:liquidity)",
+  "liquidity_add": "$t(glossary:liquidity)を追加",
+  "liquidity_withdraw": "$t(glossary:liquidity)を引き出す",
+  "liquidity_withdraw_no_asset": "LP資産がウォレットにありません",
+  "liquidity_withdrawNoPercentage": "引き出す量を選択してください",
+  "liquidity_remove": "$t(glossary:liquidity)を削除",
+  "liquidity_migrate": "$t(glossary:liquidity)を移行",
+  "liquidity_migrateShort": "移行",
+  "liquidity_migrating": "$t(glossary:liquidity)を移行中",
+  "liquidity_create": "$t(glossary:pool)を作成",
+  "liquidity_create_view": "ダッシュボードへ移動",
+  "liquidity_provide": "$t(glossary:liquidity)を追加",
+  "liquidity_zap": "Zap",
+  "liquidity_swap": "{{name}}をスワップ",
+  "liquidity_actions": "アクション",
+  "liquidity_information": "プール情報",
+  "poolQuantity": "{{assetName}}リザーブ",
+  "trade": "トレードペア",
+  "favorites": "お気に入りのみ",
+  "table": {
+    "expandable": {
+      "wannaProvide": "このプールに流動性を追加しますか？"
+    },
+    "comingSoon": "このプールは{{date}}に取引可能になります。{{date}}からこのプールに流動性を追加および削除することができます。",
+    "loadMore": "もっと読み込む"
+  },
+  "banner": {
+    "ariaLabel": "$t(glossary:liquidity)",
+    "title": "$t(glossary:liquidity)",
+    "copy": "取引、流動性の提供、およびCardanoネイティブトークンを探索してください。"
+  },
+  "cancelOrderPreview": "プール概要に戻る",
+  "root": {
+    "title": "流動性プールを探索",
+    "footer": {
+      "educationAndHelp": "教育とヘルプ",
+      "teaser": {
+        "pools": {
+          "copy": "ここでは、流動性プールとは何か、流動性の提供および引き出し方法、およびSundaeSwapで流動性プロバイダーとして取引手数料を獲得する方法について学ぶことができます。",
+          "cta": "もっと詳しく",
+          "title": "流動性プール"
+        },
+        "impermanentLoss": {
+          "copy": "流動性の提供および取引手数料の獲得には常にリスクが伴います。流動性を提供することで、インパーマネントロスにさらされる可能性があります。",
+          "cta": "もっと詳しく",
+          "title": "インパーマネントロス"
+        }
+      }
+    }
+  },
+  "sort": {
+    "by": "プールの並べ替え基準",
+    "by_apy": "$t(glossary:apy)",
+    "by_change24": "$t(common:change24h)",
+    "by_fees24": "$t(common:fees24h)",
+    "by_price": "$t(common:price)",
+    "by_totalValueLocked": "$t(glossary:tvl)",
+    "by_volume24": "$t(common:volume24h)",
+    "by_poolName": "プール名",
+    "direction": "並べ替え方向",
+    "direction_asc": "昇順（低から高へ）",
+    "direction_desc": "降順（高から低へ）"
+  },
+  "createPool": {
+    "wizard": {
+      "buttons": {
+        "primary": {
+          "enterAmounts": "開始するには金額を入力してください",
+          "confirm": "確認してプールを作成 🎉",
+          "start": "始めましょう",
+          "continue": "続ける",
+          "insufficientFunds": "入力残高が不足しています",
+          "insufficientFunds_asset": "{{asset}}の残高が不足しています"
+        }
+      },
+      "entry": {
+        "title": "新しいプールを作成する手順をガイドします。"
+      },
+      "feeTier": {
+        "title": "どの手数料層を使用しますか？",
+        "warning": "このプールは既に存在します。新しいプールを作成することは可能です。複数のプールは、取引時の流動性の低下、プールごとのボリューム減少、ユーザーのスリッページ増加、および流動性提供者の一時的な損失の増加を招く可能性があります。",
+        "feeSelect": {
+          "options": {
+            "decaying": {
+              "title": "減衰手数料（上級）",
+              "config": {
+                "start": "開始手数料",
+                "end": "終了手数料",
+                "error": "開始手数料が終了手数料より少ないことを確認してください。",
+                "duration": "減衰手数料の期間を設定してください（デフォルトは12週間）。",
+                "duration_tooltip": "減衰手数料の期間（日単位）です。手数料は開始手数料から始まり、期間中に減衰して終了手数料に達します。期間後の手数料は終了手数料と同じになります。"
+              }
+            }
+          }
+        }
+      },
+      "contractVersion": {
+        "title": "どの契約バージョンを使用しますか？",
+        "options": {
+          "v1": "V1契約",
+          "v3": "V3契約（推奨）"
+        }
+      },
+      "marketOpen": {
+        "title": "プールをいつ取引可能にしますか？",
+        "title_customDate": "カスタムのマーケットオープン日を選択してください",
+        "options": {
+          "now": "現在",
+          "custom": "カスタム日"
+        }
+      },
+      "confirmation": {
+        "title": "プール設定を確認して、プールを作成します",
+        "labels": {
+          "poolName": "プール名",
+          "contractVersion": "契約バージョン",
+          "feeTier": "手数料層",
+          "feeTier_start": "開始手数料",
+          "feeTier_end": "終了手数料",
+          "feeTier_decayingDuration": "減衰手数料の期間",
+          "marketOpen": "マーケットオープン日",
+          "share": "プールのシェア"
+        },
+        "consent": "続行することで、同じペアに対する複数のプールを作成するリスクを理解していることを認めます。"
+      }
+    },
+    "assetSelect": {
+      "button": "{{assetA}}と{{assetB}}でプールを作成する",
+      "button_disabled": "アセットを選択する",
+      "button_missingAsset": "別のアセットを選択する",
+      "button_fetching": "既存のプールを検索中...",
+      "title": "アセットを選択する",
+      "description": "あなたのウォレット内に流動性プールを作成できる異なる{{amount}}個のアセットが見つかりました。新しい流動性プールを作成するには、続きを行いたいお気に入りの2つのアセットを選択してください。",
+      "existingPoolWarning": {
+        "title": "プールは既に存在します",
+        "title_other": "既存のプールあり",
+        "title_happyPath": "既存のプールが見つかりません",
+        "copy": "ペア{{assetA}}と{{assetB}}のプールは既に存在します。選択したアセットで新しいプールを作成することは可能です。複数のプールは、取引時の流動性の低下、プールごとのボリューム減少、ユーザーのスリッページ増加、および流動性提供者の一時的な損失の増加を招く可能性があります。",
+        "copy_other": "ペア{{assetA}}と{{assetB}}の複数のプールが既に存在します。選択したアセットで新しいプールを作成することは可能です。複数のプールは、取引時の流動性の低下、プールごとのボリューム減少、ユーザーのスリッページ増加、および流動性提供者の一時的な損失の増加を招く可能性があります。",
+        "copy_happyPath": "素晴らしい！ペア{{assetA}}と{{assetB}}のプールは存在しません。"
+      }
+    },
+    "title": "$t(glossary:pool)を作成",
+    "title_v3": "V3 $t(glossary:pool)を作成",
+    "title_v3Help": "V3 $t(glossary:pool)を作成",
+    "notEnoughAssets": "アセットが不足しています",
+    "description": "トークンペアを選択し、各トークンに対して入金する金額を入力してください。",
+    "description_page": "各トークンに対して入金する金額を入力してください。",
+    "banner": {
+      "ariaLabel": "$t(glossary:liquidityPool)を作成する",
+      "copy": "$t(glossary:liquidityPool)を作成し、任意のCardanoネイティブトークンを取引します。",
+      "title": "$t(glossary:liquidityPool)を作成する"
+    },
+    "button": "$t(liquidity_create)",
+    "depositAmounts": "入金する金額を入力してください。",
+    "selectFeeTier": "料金ティアを選択",
+    "tiers": {
+      "stable": "安定ペアに最適なティア。",
+      "popular": "ほとんどのペアに最適なティア。",
+      "exotic": "エキゾチックペアに最適なティア。"
+    },
+    "error": {
+      "missingAssets": "資産を選択",
+      "invalidValues": "金額を入力",
+      "poolAlreadyExists": "プールは既に存在します",
+      "v3NotSupported": "V3はまだサポートされていません"
+    },
+    "assetSelectDialogTitle": "プールを作成するための資産を選択",
+    "confirmation": {
+      "button": "供給を確認してプールを作成"
+    }
+  },
+  "deposit": {
+    "assetAmountBox": {
+      "topline": "あなたのデポジット"
+    },
+    "dialog": {
+      "title": "流動性を追加",
+      "copy": "各トークンにデポジットする金額を入力してください。"
+    },
+    "feeTier": "この{{poolName}}プールの料金ティア",
+    "confirmation": {
+      "button": "確認して流動性を追加",
+      "labels": {
+        "poolName": "プール名",
+        "contractVersion": "契約バージョン",
+        "feeTier": "料金ティア",
+        "share": "プールの共有",
+        "showTxDetails": "トランザクションの詳細を表示",
+        "hideTxDetails": "トランザクションの詳細を非表示"
+      }
+    }
+  },
+  "migrateLiquidity": {
+    "description": "すべてのv1流動性を新しいv3プールに即座に移行します。",
+    "description_migrating": "選択したプール（下記参照）のv1流動性が、新しいv3プールに移行しています。",
+    "intro": "<0>Sundaeプロトコルは、新しい契約セットの採用を批准しました。<\\/0><1>これらの契約は、大規模なスケーラビリティと効率改善、新しいプロトコルとの統合機会、そして流動性プロバイダーへの新しい収益源をもたらします。<\\/1><2>単一のクリックで流動性を新しい契約に移行し、残りはブロックチェーンに任せましょう！<\\/2>",
+    "qualifiedPools": "移行可能なプール",
+    "migrating": "移行中",
+    "successMessage": "流動性移行のトランザクションは正常に送信されました！ ⚡️",
+    "loading": "プールを読み込んでいます…",
+    "banner": {
+      "title": "流動性をV3に移行",
+      "copy": "Sundaeプロトコルには新しい契約セットがあります！ ワンクリックで流動性を移行するか、新しい契約についてもっと知りたい場合はこちらをクリックしてください。"
+    }
+  },
+  "withdraw": {
+    "title": "流動性を引き出す",
+    "description": "引き出したい資産の割合を入力してください。",
+    "allLockedYf": "すべてのLPトークンは現在イールドファーミングにロックされています。イールドファーミングのポジションを更新し、再試行してください。",
+    "amountLockedInYf": "イールドファーミングにロックされている{{assetName}}の量",
+    "percentageLockedInYf": "イールドファーミングにロックされたLPトークン",
+    "percentageLockedInYf_tooltip": "これは現在イールドファーミングプログラムにロックされているLPトークンの量です。",
+    "confirmationModal": {
+      "description": "流動性引き出しの確認",
+      "message": "{{amountA}}と{{amountB}}を最低でも受け取るか、トランザクションがリバートされます。",
+      "button": "引き出しを確認",
+      "burned": "{{assets}} LPがバーンされました🔥",
+      "showTxDetails": "トランザクションの詳細を表示",
+      "hideTxDetails": "トランザクションの詳細を非表示"
+    }
+  },
+  "swap": {
+    "title": "スワップ",
+    "title_update": "スワップの更新",
+    "description": "お気に入りのカルダノネイティブトークンをスワップします。",
+    "description_update": "現在の注文を簡単に更新します。"
+  },
+  "per": "{{firstAsset}} 当たり {{secondAsset}}",
+  "pools": {
+    "starred_add": "お気に入りにプールを追加。",
+    "starred_remove": "お気に入りからプールを削除。",
+    "starred_show": "お気に入り ⭐️"
+  },
+  "lpTokensYouWillReceive": "LPトークンを受け取りました",
+  "zap": {
+    "assetAmountBox": {
+      "topline": "Zapします"
+    },
+    "confirm": {
+      "button": "トランザクションとZapを確認 ⚡️",
+      "output": {
+        "youWillZap": "Zapします"
+      },
+      "labels": {
+        "showTxDetails": "Zapの詳細を表示",
+        "hideTxDetails": "Zapの詳細を隠す"
+      }
+    },
+    "banner": {
+      "ariaLabel": "$t(glossary:zap)",
+      "title": "$t(glossary:zap)! ⚡️",
+      "copy": "ボタンをクリックするだけで、1つのトークンだけでプールに流動性を預けます。",
+      "experimental": "実験的（ベータ）",
+      "experimental_tooltip": "この機能は新しく、実験的です。コアDEX機能と同じレベルの実世界でのテストは行われていません。この機能の使用にはリスクが伴います。注意してご利用ください。"
+    },
+    "selectPool": "プールを選択",
+    "dialogCopy": "資産名でプールを検索。",
+    "fees": "Zapには連鎖したトランザクションが必要です：最初にスワップし、次に預金します。2つの別々の注文には、両方をカバーするための十分なScooper手数料が必要です。",
+    "change": "推定{{asset}}の変更",
+    "change_tooltip": "スワップ後、サイズによって価格比が変わることがあります。変更は、預金できなかった残りの資産です。",
+    "error": {
+      "missingAsset": "資産を選択",
+      "invalidValue": "金額を入力"
+    },
+    "cancelOrderPreview": "Zap概要に戻る",
+    "assetSelectDialogTitle": "Zapしたい資産を選択"
+  },
+  "confirmationModal": {
+    "description": "プール確認の作成",
+    "assets_one": "{{assets}}プールトークン",
+    "assets_other": "{{assets}}プールトークン",
+    "message_one": "少なくとも{{amount}}のプールトークンを受け取れます。受け取れない場合、トランザクションはリバートされます。",
+    "message_other": "少なくとも{{amount}}のプールトークンを受け取れます。受け取れない場合、トランザクションはリバートされます。",
+    "deposited": "{{asset}}を預けました",
+    "depositedZap": "スワップ後に{{asset}}を預けました",
+    "fees": "{{asset}}の合計Scooper手数料",
+    "depositingLiquidity": "流動性を預けています…",
+    "viewOrders": "注文を表示"
+  },
+  "manageYourLiquidity": "流動性を管理",
+  "poolNotListed": "掲載されていないプールですか？",
+  "viewPosition": "ポジションを表示"
+}

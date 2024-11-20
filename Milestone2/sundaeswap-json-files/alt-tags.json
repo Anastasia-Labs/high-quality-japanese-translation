@@ -1,0 +1,30 @@
+{
+  "home": {
+    "disconnected": "SundaeSwap branded image showing cute ice creams on a rainbow slide",
+    "connected": {
+      "newsTeaser": {
+        "trade": "Graphic indicating the exchange of two assets.",
+        "liquidityProvider": "Wally as Zeus"
+      }
+    }
+  },
+  "exchange": {
+    "crossPromos": {
+      "farming": "Wally disduised as a Farmer",
+      "liquidity": "Wally holding a watering can and watering a cute flower"
+    }
+  },
+  "liquidity": {
+    "informationTeaser": {
+      "pools": "Cute Image of an ice cream describing the topic of Liquidity Pools",
+      "impermanentLoss": "Cute Image of an ice cream describing the topic of Impermanent Loss"
+    }
+  },
+  "notFound": "A little SundaeSwap Dude showing an error message.",
+  "tasteTest": {
+    "currentPositionWidget": "Credit Cards indicating the current deposit",
+    "jumbotron": {
+      "image": "A SundaeSwap branded image showing cute ice creams on a rainbow slide."
+    }
+  }
+}

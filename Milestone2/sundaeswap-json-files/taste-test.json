@@ -1,0 +1,350 @@
+{
+  "create": "Taste Testを開始したいですか？",
+  "create_cta": "お問い合わせ",
+  "create_tooltip": "Taste Testを開始したいですか？こちらをクリックして当社にご連絡ください。プロセスをご案内します✨",
+  "status": {
+    "Closing": "締め切り",
+    "Closing_tooltip": "Taste Testは締め切られ、現在はコントリビューションを受け付けていません。バックグラウンドでは現在プールが作成されており、流動性はまもなく参加者に分配されます。",
+    "Concluded": "完了済み",
+    "Concluded_tooltip": "完了済みのツールチップ",
+    "Draft": "下書き",
+    "Draft_tooltip": "下書きのツールチップ",
+    "Geofenced": "ジオフェンス済み",
+    "Geofenced_tooltip": "ジオフェンス済みのツールチップ",
+    "LastCall": "ラストオーダー",
+    "LastCall_tooltip": "このTaste Testは24時間以内に終了します。引き出すとADAの{{percentage}}が没収されます。詳細は<3>こちら</3>をご覧ください。",
+    "Moderated": "モデレート済み",
+    "Moderated_tooltip": "モデレート済みのツールチップ",
+    "Ongoing": "進行中",
+    "Ongoing_tooltip": "進行中のツールチップ",
+    "Pending": "保留中",
+    "Pending_tooltip": "保留中のツールチップ"
+  },
+  "preview": {
+    "deposit": {
+      "youWillDeposit": "デポジットします",
+      "youWillDeposit_update": "追加でデポジットします",
+      "toTasteTest": "Taste Testに",
+      "newTotalDeposit": "Taste Testが完了すると、代わりに{{poolName}}プールトークンを受け取ります。",
+      "newTotalDeposit_update": "新しいデポジット合計："
+    },
+    "depositing": "デポジット中",
+    "withdrawing": "引き出し中",
+    "depositReturned": "返還されたデポジット",
+    "price": "新価格"
+  },
+  "overview": {
+    "jumbotron": {
+      "headline": "Sundae Labsが提供する：",
+      "description": "Taste Testは、トークンローンチのユニークな手法です。プロジェクトとコミュニティの間で分散型の交渉を行い、新しいトークンの公正な開始価格を決定し、取引市場の流動性を構築し、初期市場のボラティリティを低減します。",
+      "secondaryAction": "ローンチ",
+      "primaryAction": "Taste Testを表示"
+    },
+    "howTo": {
+      "topline": "仕組み",
+      "headline": "<2>₳</2>をデポジット - <6>LP</6>を交換",
+      "steps": {
+        "first": {
+          "headline": "リサーチ",
+          "description": "プロジェクトの基本を学び、公正な市場価格を決定します。"
+        },
+        "second": {
+          "headline": "デポジット",
+          "description": "目標価格以下の場合、Taste TestにADAをデポジットします。"
+        },
+        "third": {
+          "headline": "交換",
+          "description": "Taste Testが終了したら、コントリビュートした分に見合うLPトークンを受け取ります。"
+        }
+      }
+    },
+    "tables": {
+      "labels": {
+        "endDate": "終了日",
+        "endDate_endedTooltip": "このTaste Testは終了しました",
+        "endDate_endingTooltip": "このTaste Testの終了日時：",
+        "team": "チーム"
+      },
+      "pending": {
+        "topline": "お楽しみに",
+        "title": "近日実施予定のTaste Test",
+        "title_short": "近日実施予定",
+        "social": "SNSでフォロー",
+        "supply": "Taste Testのために供給されたトークン",
+        "percentageOfTotalSupply": "$t(glossary:supply_total)の%",
+        "startsIn": "開始まで",
+        "empty": "近日実施予定のTaste Testは見つかりませんでした。"
+      },
+      "ongoing": {
+        "topline": "コントリビュート",
+        "title": "進行中のTaste Test",
+        "title_short": "進行中",
+        "cta": "Taste Testを探る",
+        "cta_contributed": "コントリビューションを管理する",
+        "empty": "進行中のTaste Testは見つかりませんでした。"
+      },
+      "concluded": {
+        "topline": "完了しました",
+        "title": "終了したTaste Test",
+        "title_short": "終了済み",
+        "cta": "Taste Testを表示する",
+        "empty": "非アクティブなTaste Testは見つかりませんでした。"
+      }
+    }
+  },
+  "helpCenter": {
+    "topline": "Taste Testの詳細はこちら",
+    "headline": "ヘルプセンター",
+    "cta": "詳細はこちら",
+    "learn": {
+      "headline": "Taste Testについて知る",
+      "description": "ここでは、Taste Testプログラムについて学び、新しいトークンのローンチをサポートする方法を検討する際に、透明性と信頼性を高めるのに役立つ方法についてご覧いただけます。"
+    },
+    "risks": {
+      "headline": "リスクを理解する",
+      "description": "新しいトークンローンチをサポートすることは常に一定のリスクを伴います。新規プロジェクトの成功を見極める方法については、こちらをご覧ください。"
+    }
+  },
+  "detail": {
+    "duration": "このTaste Testの開始日は<2>{{date}}</2>、終了日は<5>{{date}}</5>です。",
+    "personalization": "このTaste Testは、カスタムカラーのパーソナライズされたADAハンドルを使用しています。詳細は<2>こちら</2>",
+    "back": "すべてのTaste Testに戻る",
+    "readOnlyOverlay": {
+      "draft": "注意：このTaste Testは現在下書き状態であり、まだ公開されていません。読み取り専用モードのままとなっています。",
+      "geofenced": "注意：このTaste Testは現在ジオフェンスされた状態であり、すべての場所からコントリビューションができるとは限りません。読み取り専用モードのままとなっています。",
+      "moderated": "注意：このTaste Testはモデレートされ、表示から削除されました。読み取り専用モードのままとなっています。",
+      "pending": "注意：このTaste Testは現在保留中となっており、まだ開始されていません。読み取り専用モードのままとなっています。",
+      "fallback": "注意：このTaste Testは現在読み取り専用モードです。"
+    },
+    "badges": {
+      "verified": "このTaste Testは検証されました。このTaste Testを正式に作成したトランザクション：<2></2>",
+      "trending": "このTaste Testは人気があります。Taste Testが{{adaAmount}}ADA以上のコントリビューションを獲得すると、トレンドとしてマークされます。"
+    },
+    "status": {
+      "pending": "このTaste Testはまだ開始されていません。"
+    },
+    "counter": {
+      "title": "現在調達中"
+    },
+    "metadata": {
+      "view": "Taste Testメタデータを表示",
+      "mintDate": "ミント日",
+      "openDate": "Taste Test開始日",
+      "endDate": "Taste Test終了日",
+      "description": "トークンの説明"
+    },
+    "priceChart": {
+      "title": "経時的な価格",
+      "noPriceData": "まだ価格データは利用できません。"
+    },
+    "countdown": {
+      "title": "残り時間",
+      "status": {
+        "closing": "終了済み",
+        "closing_tooltip": "終了済みのツールチップ",
+        "concluded": "完了済み",
+        "concluded_tooltip": "完了済みのツールチップ",
+        "ongoing_tooltip": "進行中のツールチップ"
+      }
+    },
+    "widget": {
+      "assetAmountBox": {
+        "topline": "コントリビュート"
+      },
+      "deposit": {
+        "initialNotice": {
+          "title": "{{assetName}}のTaste Test",
+          "desc": "TOMATのTaste TestにコントリビュートしたいADAの数量を入力してください。Taste Testが完了すると、{{poolName}}プールトークンが返還されます。"
+        },
+        "orderPreview": {
+          "details": {
+            "show": "トランザクションの詳細を表示",
+            "hide": "トランザクションの詳細を非表示"
+          }
+        }
+      },
+      "pendingOrder": {
+        "title": "Taste Testの注文を処理しています",
+        "desc": "ネットワークトラフィックによっては、数分かかる場合があります。",
+        "order_summary": "注文概要",
+        "order_placed": "注文日時",
+        "order_refreshed": "最終更新",
+        "button_refresh": "ステータスを更新",
+        "button_refreshing": "更新中…",
+        "button_view": "トランザクションを表示",
+        "amount_deposit": "コントリビュートした数量",
+        "amount_update": "追加でコントリビュートした数量",
+        "amount_withdraw": "引き出し額"
+      },
+      "status": {
+        "Concluded": "このTaste Testは終了しました。",
+        "Draft": "このTaste Testはまだ下書き段階です。コントリビューションはまだ利用できません。",
+        "Moderated": "このTaste Testはモデレートされ、表示から削除されました。",
+        "Geofenced": "このTaste Testは現在ジオフェンスされた状態であり、すべての場所からコントリビューションができるとは限りません。",
+        "Pending": "このTaste Testはまだ開始されていません。Taste Test開始後、コントリビューションが可能になります。",
+        "Closing": "このTaste Testは終了間近です。コントリビューションはすでに受付を終了しています。資産は、LPトークンを生成するためのプールに統合されるプロセス中です。このプロセスが完了すると、LPトークンがコントリビューターに支払われます。"
+      },
+      "clickToViewTxFees": "クリックしてトランザクション手数料を表示",
+      "clickToHideTxFees": "クリックしてトランザクション手数料を非表示",
+      "button": {
+        "add": "確認してコントリビュートする",
+        "back": "$t(common:back)",
+        "back_tooltip": "現在のコントリビューションに戻る",
+        "enterAmount": "$t(common:amount_missing)",
+        "closing": "Taste Testはまもなく終了します",
+        "inactiveOrPending": "Taste Testはアクティブではありません",
+        "lessThanMinimum": "現在、ウォレットに必要なADAが不足しています。このTaste Testを実施するために資金を引き出しまたはデポジットしたい場合は、{{minAmount}}ADA以上をウォレットに追加してください。詳細は<5>こちら</5>",
+        "enabled": "{{amount}}{{token}}を提供",
+        "enabled_tooltip": "このボタンをクリックすると、最終的なトランザクションが作成され、署名を要求する前に確認画面が表示されます。",
+        "disabled": "Taste Testはアクティブではありません",
+        "disabled_tooltip": "このTaste Testにトランザクションを作成し、送信するために、コントリビュートする数量を入力してください。",
+        "max_tooltip": "{{amount}}{{token}}の合計利用可能残高をコントリビュートする",
+        "submit": {
+          "update": "追加のコントリビューションを送信",
+          "deposit": "コントリビューションを送信",
+          "withdraw": "引き出しを送信"
+        }
+      },
+      "currentPositionWidget": {
+        "button": {
+          "withdraw": "すべて引き出す",
+          "withdraw_tooltip": "引き出しステータスのツールチップ",
+          "update": "さらに追加",
+          "update_tooltip": "デポジット状態のツールチップを更新"
+        }
+      },
+      "title": {
+        "initial": {
+          "update": "このTaste Testにさらに{{token}}をコントリビュートする",
+          "deposit": "このTaste Testにコントリビュートする",
+          "withdraw": "このTaste Testからのコントリビューションの引き出し"
+        },
+        "orderPreview": {
+          "update": "追加のコントリビューションの確認",
+          "deposit": "コントリビューションの確認",
+          "withdraw": "このTaste Testからの引き出しの確認"
+        },
+        "submitting": {
+          "update": "追加のコントリビューションを送信中",
+          "deposit": "コントリビューションを送信中",
+          "withdraw": "引き出しを送信中"
+        },
+        "success": "ご協力ありがとうございます",
+        "error": "問題が発生しました"
+      },
+      "currentContribution": "あなたのコントリビューション",
+      "currentContribution_new": "新規合計コントリビューション",
+      "currentContribution_withdraw": "合計引き出し額",
+      "currentDeposit": "現在のデポジット",
+      "newPosition": "新規ポジション",
+      "refundableDeposit": "返金可能なデポジット",
+      "refundableDeposit_tooltip": "返金可能なデポジット",
+      "processorFee": "処理手数料",
+      "processorFee_toolip": "処理手数料",
+      "newPrice": "新価格",
+      "warning": {
+        "title": "Taste Testの承認について",
+        "contribution": "続行することにより、このプレローンチTaste Testの一環として、{{pool}}LPトークンに対してADAをデポジットしていることを認識しています。",
+        "withdrawal": "続行することにより、このTaste TestからコントリビュートしたすべてのADAを引き出すことを認識しています。",
+        "withdrawal_title": "すべてのコントリビュートした資金を引き出す",
+        "withdrawal_lastCall": "続行することにより、このTaste TestからコントリビュートしたすべてのADAを引き出すことを認識しています。このTaste Testは24時間で終了するため、引き出しを行うと{{percentage}}のADAが没収されます。詳しくは<3>こちら</3>",
+        "confirmation": "トランザクションを完了することで、デポジットされた資金がこのTaste Testの参加プールにロックされることを承認します。Taste Testが終了する時点で、適切な量の{{pool}} LPトークンを受け取ることになります。配布される最終的な{{pool}} LPトークンの数量は、Taste TestにコントリビュートしたADAの合計数量によって異なります。"
+      },
+      "preview": {
+        "deposit": {
+          "title": "あなたのコントリビューション"
+        },
+        "update": {
+          "title_additional": "追加でコントリビュートした数量"
+        }
+      }
+    },
+    "kpis": {
+      "title": "キャンペーンステータス",
+      "timeToEnd": "残り時間",
+      "timeToStart": "Taste Test開始までの時間",
+      "amountRaised": "調達額",
+      "targetPrice": "現在の価格",
+      "targetPrice_tooltip": "価格のツールチップ",
+      "currentPoolRatio": "現在のプール比率",
+      "participants": "固有のウォレット",
+      "participants_tooltip": "現在、このTaste Testに参加している固有のウォレットの数。",
+      "interactions": "インタラクション",
+      "interactions_tooltip": "このTaste Testとのインタラクション数。",
+      "tokenSupplied": "このTaste Testのために供給されたトークン",
+      "tokenSupplied_short": "供給されたトークン"
+    },
+    "socials": "プロジェクトのSNS",
+    "socials_team": "チームのSNS",
+    "socials_profile": "{{platform}}でプロフィールを表示",
+    "projectDetails": {
+      "team": {
+        "meet": "チームの紹介",
+        "company": "会社",
+        "members": "チームメンバー",
+        "other": "その他のプロジェクト"
+      },
+      "vestingSchedule": {
+        "title": "報告された権利確定スケジュール",
+        "totalSupply": "$t(glossary:supply_total)",
+        "tooltip": "$t(glossary:supply_total)の割合",
+        "warning": "注意：これらの権利確定スケジュールは、プロジェクトが自己申告したものです。このような目的のために資金が割り当てられることを強制するオンチェーン・メカニズムは存在しません。プロジェクトは、ローンチ後にこれらのスケジュールを変更する可能性があります。",
+        "chart": {
+          "legend": {
+            "title": "権利確定受取人のアドレス"
+          },
+          "tooltips": {
+            "title": "{{title}}の権利確定",
+            "beforeLabel": "リリースされたトークン数：{{amount}}",
+            "label": "リリースされたトークンの合計数：{{amount}}",
+            "afterLabel": "リリース日：{{date}}",
+            "beforeFooter": "受取人のアドレス：{{address}}"
+          }
+        }
+      },
+      "tokenomics": {
+        "title": "報告されたトークノミクス",
+        "totalSupply": "$t(glossary:supply_total)",
+        "tooltip": "$t(glossary:supply_total)の割合",
+        "warning": "注意：これらのトークノミクスは、プロジェクトが自己申告したものです。このような目的のために資金が割り当てられることを強制するオンチェーン・メカニズムは存在しません。プロジェクトは、ローンチ後にこれらの割り当てを変更する可能性があります。"
+      }
+    },
+    "txOverview": {
+      "deposited": "デポジットした{{asset}}",
+      "tokenWorthEst": "{{asset}}の推定価値",
+      "lpTokens": "推定LPトークン",
+      "lpTokensValue": "推定LPトークン価値",
+      "penalty": "ペナルティ",
+      "penalty_tooltip": "Taste Testの終了直前での操作を防ぐため、最後の24時間で引き出しを行う場合、デポジットの{{penaltyPercentage}}%が没収されます。"
+    },
+    "contributionsTab": {
+      "widget": "Taste Testにコントリビュートする",
+      "widget_withContribution": "コントリビューションを管理する",
+      "table": "あなたのコントリビューション"
+    },
+    "priceCharts": {
+      "tabs": {
+        "tvl": "Taste Test TVL",
+        "price": "目標価格"
+      },
+      "tvl": {
+        "title": "現在の預かり資産（TVL）"
+      }
+    }
+  },
+  "targetPrice": "目標価格",
+  "targetPrice_individual": "あなたの目標価格",
+  "targetPrice_set": "目標価格を設定",
+  "targetPrice_update": "目標価格を更新",
+  "targetPrice_aboveBelowCurrent": "現在の目標価格は、現在の価格（{{price}}）に対して{{percentage}}{{aboveBelow}}です。",
+  "targetPrice_inactive": "このTaste Testは現在アクティブではありません。予想市場価格は{{price}}です（個人目標価格より{{percentage}}{{aboveBelow}}）。",
+  "targetPrice_inactiveUnsetTitle": "目標価格が設定されていません。",
+  "targetPrice_inactiveUnset": "このTaste Testは現在アクティブではありません。予想市場価格は{{price}}です。",
+  "targetPrice_equalsCurrent": "目標価格は現在の価格と同じです。",
+  "targetPrice_unset": "まだ目標価格を設定していません。",
+  "targetPrice_qa": "目標価格とは何ですか？",
+  "targetPrice_qaTooltip": "トークンの取引を想定している個人的な目標価格を設定できます。",
+  "targetPriceDialog": {
+    "desc": "このTaste Testの目標価格を設定します。現在の価格は{{currentPrice}}です。"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "fee": "手数料",
+  "fee_network": "ネットワーク手数料",
+  "fee_adaTx": "ADAトランザクション手数料",
+  "fee_adaTxExplained": "注文をリストに載せるためにCardanoネットワークに支払うADA手数料です。",
+  "fee_eternlReferral": "紹介手数料",
+  "fee_eternlReferralExplained": "dAppストアの利用に対してEternlに支払う少額の手数料です。100 ADA以上の注文において、この手数料は1 ADAまたはトランザクション価値の0.1%のいずれか高い方です。",
+  "fee_adaTxExplainedNextStep": "注文をリストに載せるためにCardanoネットワークに支払うADA手数料です。正確な金額は次のステップで計算されます。",
+  "fee_deposit": "デポジット",
+  "fee_depositExplained": "注文が処理またはキャンセルされた時に返金される少額のADAデポジットです。",
+  "fee_lp": "流動性提供者手数料",
+  "fee_lpAbbr": "LP手数料",
+  "fee_lpExplained": "流動性提供者に支払うために資産から差し引かれる少額の手数料です。",
+  "fee_scooper": "Scooper処理手数料",
+  "fee_scooperExplained": "注文を処理するためにSundae Scooperネットワークに支払うADA手数料です。",
+  "fee_scooperV3": "Sundaeプロトコル手数料",
+  "fee_scooperV3Discount": "最初の3ヶ月間、Sundae v3では、DAOが割引プロトコル料金を提供することを決定しました！",
+  "fee_scooperV3Explained": "プロトコルに支払う最大の手数料です。トランザクションコストに応じて、この手数料の一部が返金される場合があります。",
+  "fee_total": "トランザクション手数料"
+}

@@ -1,0 +1,10 @@
+{
+  "decimals": "小数位",
+  "divisible": "割切可能",
+  "information": "トークン情報",
+  "information_missing": "トークン情報がありません",
+  "policyId": "ポリシーID",
+  "assetId": "アセットID",
+  "registered": "登録済",
+  "ticker": "ティッカー"
+}
